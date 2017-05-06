@@ -1,6 +1,6 @@
 
-var defaultPageSize = 5
-var arr = eval('[{"title":"我的第一篇博客","date":"2016-07-01 00:39:19","desc":"这是我的第一篇博客, 主要是用来做测试的, `TitanPages`是不是可以完美的生成静态博客呢?"}]')
+var defaultPageSize = 5;
+var arr = eval('[{"title":"first","date":"2017-05-06 18:58:41","desc":""}]');
 function get(currentPage) {
 	return getResult(currentPage, defaultPageSize);
 }
